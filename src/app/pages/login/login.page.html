@@ -1,0 +1,23 @@
+<body>
+<h1>Login Trainer</h1>
+
+<form #loginForm="ngForm" (ngSubmit)="onLoginSubmit(loginForm)">
+    <fieldset>
+        <label for="username">Enter Trainer name:  </label>
+        <input 
+        type="text" 
+        ngModel #username="ngModel"
+        [ngClass]="{'is-valid': username.valid, 'is-invalid': (username.invalid && (username.dirty||username.touched))}"
+        name="username" 
+        minlength="2"
+        required
+        placeholder="E.g. CoolTrainer92" class = "form-control"
+        >
+        <div *ngIf="registerError" class="alert-danger">
+            <span>{{ registerError }}</span>
+        </div>
+        <button type="submit">Continue</button>
+    </fieldset>
+</form>
+
+</body>

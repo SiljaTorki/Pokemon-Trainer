@@ -1,0 +1,42 @@
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+}
+
+p{
+    font-size: large;
+}
+
+div {
+    display: table;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+}
+
+.pokeButton {
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50px;
+    font-size: medium;
+}
+
+
+img {
+    width: 100px;
+    padding: 10px;
+    
+}
+
+#allTrainerPokemons {
+    background-color: rgb(247, 232, 232);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+

@@ -1,0 +1,10 @@
+<section id="allPokemons">
+<div class="row">
+
+        <app-pokemon-list-item
+            (click)="addPokemon(pokemon)"
+            *ngFor="let pokemon of pokemons"
+            [pokemon]="pokemon"
+        ></app-pokemon-list-item>
+    </div>
+</section>

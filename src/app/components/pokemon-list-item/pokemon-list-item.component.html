@@ -1,0 +1,13 @@
+
+    <div class="column" >
+        <img 
+        *ngIf="pokemonClicked()" class="pokemonBall" 
+        src ="https://th.bing.com/th/id/R.09a6ae937a6d9ef5cd10d132b59d6f5d?rik=0mthQl%2b6uZ7sUg&pid=ImgRaw&r=0" />
+        <p>{{ pokemon.pokemonName }}</p>
+        <p>{{pokemon.id }}</p>
+        <img src="{{ pokemon.pokemonImg }}"/>
+        <br>
+        <button class="pokeButton" (click)="clickPokemon()" >Throw pokeball!</button>
+    </div>
+
+

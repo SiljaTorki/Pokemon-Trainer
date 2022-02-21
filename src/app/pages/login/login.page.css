@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: red;
+    border-radius: 30px 30px 30px 30px;
+    padding: 14px 16px;
+    font-weight: bold;
+}
+
+button {
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50px;
+    font-size: medium;
+}
+
+label {
+    font-size: large;
+}
+
+fieldset {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30px 30px 30px 30px;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(247, 232, 232);
+    padding: 18%;
+}
+
+.form-control {
+    font-size: large;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.alert-danger {
+    font-size: large;
+    font-weight: bold;
+    color: red;
+}

@@ -1,0 +1,13 @@
+<section id="allTrainerPokemons">
+        <div class="row">
+                <div class="column" *ngFor="let p of pokemons" (click)="deletePokemon(p)">
+                        <p>{{ p.pokemonName }}</p>
+                        <p>{{p.id }}</p>
+                        <img src="{{ p.pokemonImg }}"/>
+                        <br>
+                        <button class="pokeButton" (click)="clickPokemon()">Set pokemon free!</button>
+                </div>
+        </div>
+</section>
+
+

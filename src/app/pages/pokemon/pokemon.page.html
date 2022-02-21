@@ -1,0 +1,10 @@
+<body>
+    <div class="nav">
+        <a routerLink="/trainer">Trainer profile!</a>
+        <button (click)="logout()" > Log out </button>
+    </div>
+
+    <h1>Catch them all!</h1>
+    
+    <app-pokemon-list (addPokemonToTrainer)="addPokemonToTrainer($event)"></app-pokemon-list>  
+</body>
